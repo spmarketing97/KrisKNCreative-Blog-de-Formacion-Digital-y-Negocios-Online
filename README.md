@@ -49,11 +49,6 @@ Blog minimalista y profesional especializado en **formación digital**, **negoci
 - **JavaScript Vanilla**: Sin dependencias externas, código puro y optimizado
 - **Web3Forms**: Formulario de contacto sin backend
 
-## 📞 Contacto
-
-- **Email**: solucionesworld2016@gmail.com
-- **WhatsApp**: [Únete a la Comunidad](https://chat.whatsapp.com/CumNDaB0EkD2oKgT2ofuG8)
-
 ## 📄 Licencia
 
 MIT License - Ver [LICENSE](LICENSE) para más detalles.
@@ -63,3 +58,4 @@ MIT License - Ver [LICENSE](LICENSE) para más detalles.
 **¡Hecho con ❤️ por KrisKNCreative!**
 
 Transformando conocimiento en negocios digitales exitosos desde 2026.
+
