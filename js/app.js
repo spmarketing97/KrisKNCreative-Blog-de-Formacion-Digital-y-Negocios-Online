@@ -416,7 +416,7 @@ function initWhatsAppWidget() {
     
     if (!whatsappBtn || !whatsappWidget) return;
     
-    const whatsappURL = 'https://chat.whatsapp.com/CumNDaB0EkD2oKgT2ofuG8';
+    const whatsappURL = 'https://KrisKNCreative.short.gy/wp-grupo';
     
     // Abrir widget
     whatsappBtn.addEventListener('click', () => {
