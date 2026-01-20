@@ -42,7 +42,7 @@ const observeElements = () => {
 // Ejecutar después de cargar contenido
 setTimeout(observeElements, 100);
 
-// Filtros de categorías en el blog
+// Filtros de categorías en el blog y productos
 document.addEventListener('click', (e) => {
     if (e.target.classList.contains('category-filter')) {
         // Actualizar botones activos
@@ -416,7 +416,7 @@ function initWhatsAppWidget() {
     
     if (!whatsappBtn || !whatsappWidget) return;
     
-    const whatsappURL = 'https://KrisKNCreative.short.gy/wp-grupo';
+    const whatsappURL = 'https://chat.whatsapp.com/CumNDaB0EkD2oKgT2ofuG8';
     
     // Abrir widget
     whatsappBtn.addEventListener('click', () => {

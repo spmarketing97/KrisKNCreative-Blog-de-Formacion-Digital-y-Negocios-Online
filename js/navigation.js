@@ -982,14 +982,37 @@ class SPANavigator {
                                 
                                 <p><strong>Las sesiones en vivo se realizan en Telegram</strong>, donde puedes hacer preguntas directamente a los mentores y recibir feedback personalizado. Te recomendamos especialmente unirte a las comunidades para tener acompañamiento continuo durante todo tu proceso de aprendizaje.</p>
                                 
-                                <p>Puedes acceder a nuestras comunidades y sesiones en vivo a través de estos enlaces:</p>
+                                <p>Puedes acceder a nuestras comunidades y sesiones en vivo a través de estos canales:</p>
                                 
-                                <ul style="margin-top: 16px; margin-bottom: 16px;">
-                                    <li style="margin-bottom: 12px;"><strong>Telegram (sesiones en vivo):</strong> <a href="https://go.hotmart.com/G103064932D?ap=ac0f" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=ac0f</a></li>
-                                    <li style="margin-bottom: 12px;"><strong>Comunidad en Skool:</strong> <a href="https://go.hotmart.com/G103064932D?ap=c765" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=c765</a></li>
-                                    <li style="margin-bottom: 12px;"><strong>Mentorías en vivo por Zoom:</strong> <a href="https://go.hotmart.com/G103064932D?ap=d836" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=d836</a></li>
-                                    <li style="margin-bottom: 12px;"><strong>Comunidad en WhatsApp:</strong> <a href="https://go.hotmart.com/G103064932D?ap=887f" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=887f</a></li>
-                                </ul>
+                                <div class="social-buttons-container" style="margin-top: 20px; margin-bottom: 20px; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+                                    <a href="https://go.hotmart.com/G103064932D?ap=ac0f" target="_blank" rel="noopener noreferrer" class="social-button social-telegram">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"/>
+                                        </svg>
+                                        <span>Telegram</span>
+                                    </a>
+                                    
+                                    <a href="https://go.hotmart.com/G103064932D?ap=c765" target="_blank" rel="noopener noreferrer" class="social-button social-skool">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                                        </svg>
+                                        <span>Skool</span>
+                                    </a>
+                                    
+                                    <a href="https://go.hotmart.com/G103064932D?ap=d836" target="_blank" rel="noopener noreferrer" class="social-button social-zoom">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.568 8.16l-2.8 2.8c-.4.4-.4 1.04 0 1.44l2.8 2.8c.4.4 1.04.4 1.44 0l2.8-2.8c.4-.4.4-1.04 0-1.44l-2.8-2.8c-.4-.4-1.04-.4-1.44 0z"/>
+                                        </svg>
+                                        <span>Zoom</span>
+                                    </a>
+                                    
+                                    <a href="https://go.hotmart.com/G103064932D?ap=887f" target="_blank" rel="noopener noreferrer" class="social-button social-whatsapp">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                                        </svg>
+                                        <span>WhatsApp</span>
+                                    </a>
+                                </div>
                                 
                                 <p>Nuestros programas están certificados por el Centro de Educación y Liderazgo (CEL) y avalados por Florida Global University dentro de su Programa de Educación Continua, cumpliendo estándares internacionales de calidad educativa.</p>
                             </div>
@@ -1577,6 +1600,20 @@ class SPANavigator {
                         <h1>❤️ Más Queridos: Cursos Prácticos que Transforman Habilidades en Negocios Rentables</h1>
                         <p class="programs-subtitle">Accede a cursos prácticos y accesibles que transforman habilidades en negocios rentables. Aprende a tu ritmo con acceso de por vida y comienza a generar ingresos desde el primer día con formaciones probadas y resultados garantizados.</p>
                     </div>
+
+                    <div class="blog-categories">
+                        <button class="category-filter active" data-category="all">Todos</button>
+                        <button class="category-filter" data-category="salud-bienestar">Salud y Bienestar</button>
+                        <button class="category-filter" data-category="belleza-estetica">Belleza y Estética</button>
+                        <button class="category-filter" data-category="gastronomia">Gastronomía</button>
+                        <button class="category-filter" data-category="tecnologia-marketing">Tecnología y Marketing</button>
+                        <button class="category-filter" data-category="negocios-emprendimiento">Negocios y Emprendimiento</button>
+                        <button class="category-filter" data-category="arte-creatividad">Arte y Creatividad</button>
+                        <button class="category-filter" data-category="mascotas">Mascotas</button>
+                        <button class="category-filter" data-category="desarrollo-personal">Desarrollo Personal</button>
+                        <button class="category-filter" data-category="servicios-profesionales">Servicios Profesionales</button>
+                    </div>
+
                     <div class="articles-grid">
                         ${this.getProductosArticles()}
                     </div>
@@ -1750,9 +1787,95 @@ class SPANavigator {
             '🐾 MASCOTAS FIT: Alimentación Natural': '🐾 Nutrición Mascotas'
         };
 
+        // Mapeo de categorías para cada producto
+        const categoriasProductos = {
+            '📹 Gana 24/7 con Cámaras de Seguridad': 'servicios-profesionales',
+            '✂️ Costura que Vende: Gana desde Casa': 'arte-creatividad',
+            '🤖 Método García: Convierte tu Experiencia con IA': 'tecnologia-marketing',
+            '🌬️ Respira Pro: Domina el Breathwork': 'salud-bienestar',
+            '📊 Tráfico 10K: Aumenta Ventas en 5 Días': 'tecnologia-marketing',
+            '👁️ Cejas y Pestañas Pro: Genera Ingresos': 'belleza-estetica',
+            '🥩 Método BARF: Bienestar Animal Real': 'mascotas',
+            '👔 Lider Master: Transforma tu Impacto': 'negocios-emprendimiento',
+            '📹 Master Reels: Crea y Conquista': 'tecnologia-marketing',
+            '✨ Capas Perfectas: Extensiones Premium': 'belleza-estetica',
+            '🍱 SushiMaster: De la Cocina al Negocio': 'gastronomia',
+            '💃 Danza Árabe: Vive de tu Pasión': 'arte-creatividad',
+            '🌱 Cultiva Fortuna: Monetiza tu Pasión': 'arte-creatividad',
+            '👔 Vestir Bien: Proyecta Autoridad': 'negocios-emprendimiento',
+            '🏠 Airbnb Master: Convierte tu Propiedad': 'negocios-emprendimiento',
+            '🎙️ Sazón en Altavoz: Marketing Gastronómico': 'gastronomia',
+            '🚗 Polarizados Pro: Crea tu Negocio': 'servicios-profesionales',
+            '🦷 Tecnología Endodóntica: Optimiza tu Práctica': 'servicios-profesionales',
+            '😴 SleepLab: Domina el Buen Dormir': 'salud-bienestar',
+            '✨ Fibroblast que Factura: Tu Negocio': 'belleza-estetica',
+            '🌬️ Respira Libre: Supera Rinitis y Asma': 'salud-bienestar',
+            '❄️ Mantenimientos Pro: Gana con Aire Acondicionado': 'servicios-profesionales',
+            '📱 CapCut Express: Edita y Monetiza': 'tecnologia-marketing',
+            '💇 Stop Caída: Recupera tu Cabello': 'salud-bienestar',
+            '💼 Monetiza tu Credibilidad': 'negocios-emprendimiento',
+            '🎤 Speaker Master: Domina la Oratoria': 'negocios-emprendimiento',
+            '🍸 Bartender Pro: Mix de Ganancia': 'gastronomia',
+            '⚡ Reparación que Factura: Herramientas Eléctricas': 'servicios-profesionales',
+            '🍄 Microdosis Segura: Domina los Beneficios': 'salud-bienestar',
+            '💇 Pelucas Premium: Tu Negocio': 'belleza-estetica',
+            '🧴 Tu Marca Natural: Shampoos que Venden': 'belleza-estetica',
+            '🎤 Pitch Perfecto: Comunica con Impacto': 'negocios-emprendimiento',
+            '🧁 Cake Rolls Pro: Tu Negocio Rentable': 'gastronomia',
+            '🔮 Tarot para Sanar: Transforma tu Corazón': 'desarrollo-personal',
+            '🧘 Kundalini Start: Despierta tu Energía': 'desarrollo-personal',
+            '⚡ Fórmula de la Vitalidad: Alivia el Dolor': 'salud-bienestar',
+            '✍️ Copywriting Pro: Escribe para Vender': 'tecnologia-marketing',
+            '💃 Barre Fit: Tonifica en 21 Días': 'salud-bienestar',
+            '💇 Experta en Extensiones: Tu Negocio': 'belleza-estetica',
+            '✂️ Patronaje Pro: Gana con tu Talento': 'arte-creatividad',
+            '✈️ Tripulante de Cabina: Tu Carrera': 'negocios-emprendimiento',
+            '🧠 Mente Imparable: Transforma tu Éxito': 'desarrollo-personal',
+            '🍫 Chocolate Pro: Negocio desde Casa': 'gastronomia',
+            '💡 Design Thinking: Innova y Factura': 'negocios-emprendimiento',
+            '🍰 SweetLab: Pastelería que Vende': 'gastronomia',
+            '💖 RENACER: Supera tu Divorcio': 'desarrollo-personal',
+            '😴 S.O.S Sueño: Duerme Profundamente': 'salud-bienestar',
+            '🧘 Calma en Minutos: Elimina el Estrés': 'salud-bienestar',
+            '💆 Moldearte Pro: Masajes que Facturan': 'salud-bienestar',
+            '🚀 Landing Express: Lanza y Vende': 'tecnologia-marketing',
+            '🐕 Mascotas Naturales: Alimentación Sana': 'mascotas',
+            '✨ Tu Mejor Versión: 21 Días': 'desarrollo-personal',
+            '👰 Lujo Nupcial: Diseño que Factura': 'arte-creatividad',
+            '🐾 Pastelería PET: Snacks Naturales': 'mascotas',
+            '🧠 PSICO-MARKETING: Llena tu Consulta': 'negocios-emprendimiento',
+            '🧘 Método Zeren: Armoniza tu Energía': 'salud-bienestar',
+            '💳 Deudas 2.0: Sal de Deudas': 'negocios-emprendimiento',
+            '🌟 Despertar Espiritual: Tu Transformación': 'desarrollo-personal',
+            '👨‍👩‍👧 Familias que Sanan': 'desarrollo-personal',
+            '🔧 Mecánica que Factura: Tu Negocio': 'servicios-profesionales',
+            '🎬 DaVinci Pro: Edita y Gana': 'tecnologia-marketing',
+            '📸 Click Pro: Fotógrafo Profesional': 'arte-creatividad',
+            '🧼 Jabones Naturales: Tu Negocio': 'mascotas',
+            '👤 Prótesis Capilar: Tu Negocio': 'belleza-estetica',
+            '🧘 Método Zeren: Respira y Conecta': 'salud-bienestar',
+            '🎨 Photoshop PRO: Diseña y Gana': 'arte-creatividad',
+            '📱 UGC PRO: Crea y Cobra': 'tecnologia-marketing',
+            '⭐ Astrología Mentor: Descubre tu Propósito': 'desarrollo-personal',
+            '💁 Cuidado Premium: Extensiones Duraderas': 'belleza-estetica',
+            '📸 Lightroom Pro: De Cero a Profesional': 'arte-creatividad',
+            '🤰 Mamá Vitales: Recarga tu Energía': 'salud-bienestar',
+            '💄 Maquillaje Pro: Foto & Video': 'belleza-estetica',
+            '👗 Facturando con Estilo: Tu Negocio': 'negocios-emprendimiento',
+            '🎤 Habla con Poder: Presentaciones que Venden': 'negocios-emprendimiento',
+            '🎨 Illustrator Pro: De Cero a Experto': 'arte-creatividad',
+            '🛒 Mercado Libre Pro: Factura Sin Límite': 'negocios-emprendimiento',
+            '💆 Maderoterapia Spa: Negocio Exitoso': 'salud-bienestar',
+            '📊 Marketing Digital: De Cero a Click': 'tecnologia-marketing',
+            '🐾 MASCOTAS FIT: Alimentación Natural': 'mascotas'
+        };
+
         return productos.map(prod => {
             // Usar título mejorado si existe, sino usar el original
             const tituloMostrar = titulosMejorados[prod] || prod;
+            
+            // Obtener categoría del producto
+            const categoria = categoriasProductos[prod] || 'negocios-emprendimiento';
             
             // Remover emoji del nombre original para generar el page ID correctamente
             const prodSinEmoji = prod.replace(/[\u{1F300}-\u{1F9FF}]/gu, '').trim();
@@ -1848,7 +1971,7 @@ class SPANavigator {
             const descripcion = descripcionesPersuasivas[prod] || 'Transforma tu pasión en expertise profesional con formación completa y acceso de por vida a todo el contenido';
             
             return `
-            <article class="article-card">
+            <article class="article-card" data-category="${categoria}">
                 <div class="article-card-header">
                     <span class="article-category">Más Queridos</span>
                     <h3>${tituloMostrar}</h3>

@@ -1724,11 +1724,11 @@ button {
     position: fixed;
     bottom: 80px;
     left: 15px;
-    width: 220px;
+    width: 180px;
     background: var(--color-bg-light);
     border: 1px solid var(--color-border);
     border-radius: 10px;
-    padding: 10px;
+    padding: 8px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     z-index: 999;
     opacity: 0;
@@ -1812,12 +1812,111 @@ button {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
+/* Social Buttons Styles */
+.social-buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: var(--color-bg-light);
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.social-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.social-button svg {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.social-button span {
+    white-space: nowrap;
+}
+
+/* Telegram Button */
+.social-telegram:hover {
+    border-color: #0088cc;
+    background: rgba(0, 136, 204, 0.1);
+}
+
+.social-telegram svg {
+    color: #0088cc;
+}
+
+/* Skool Button */
+.social-skool:hover {
+    border-color: #6366f1;
+    background: rgba(99, 102, 241, 0.1);
+}
+
+.social-skool svg {
+    color: #6366f1;
+}
+
+/* Zoom Button */
+.social-zoom:hover {
+    border-color: #2d8cff;
+    background: rgba(45, 140, 255, 0.1);
+}
+
+.social-zoom svg {
+    color: #2d8cff;
+}
+
+/* WhatsApp Button */
+.social-whatsapp:hover {
+    border-color: #25d366;
+    background: rgba(37, 211, 102, 0.1);
+}
+
+.social-whatsapp svg {
+    color: #25d366;
+}
+
+[data-theme="dark"] .social-button {
+    background: var(--color-secondary);
+    border-color: var(--color-border);
+}
+
 @media (max-width: 768px) {
+    .social-buttons-container {
+        gap: 8px;
+    }
+    
+    .social-button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+    
+    .social-button svg {
+        width: 16px;
+        height: 16px;
+    }
+    
     .floating-testimonial-popup {
-        width: 200px;
+        width: 160px;
         left: 10px;
         bottom: 70px;
-        padding: 8px;
+        padding: 6px;
         font-size: 10px;
     }
     
@@ -2987,11 +3086,11 @@ button {
 .testimonial-popup {
     position: fixed;
     left: 20px;
-    width: 280px;
+    width: 220px;
     background: var(--color-bg-light);
     border: 2px solid var(--color-accent);
     border-radius: 12px;
-    padding: 16px;
+    padding: 12px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
     z-index: 9998;
     opacity: 0;
@@ -3078,9 +3177,9 @@ button {
 
 @media (max-width: 768px) {
     .testimonial-popup {
-        width: 240px;
+        width: 180px;
         left: 10px;
-        padding: 12px;
+        padding: 10px;
     }
     
     .universidad-programs-slider {
