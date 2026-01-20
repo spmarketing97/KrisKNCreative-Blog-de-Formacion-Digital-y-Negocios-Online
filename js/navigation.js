@@ -830,13 +830,17 @@ class SPANavigator {
                 this.initContactForm();
             }
             
-            // Re-inicializar slider y FAQ si es home
+            // Re-inicializar slider si es home
             if (page === 'home') {
                 setTimeout(() => {
                     if (typeof initArticlesSlider === 'function') initArticlesSlider();
-                    if (typeof initFAQ === 'function') initFAQ();
                 }, 300);
             }
+            
+            // Inicializar FAQ en todas las páginas que lo contengan (home, productos, etc.)
+            setTimeout(() => {
+                if (typeof initFAQ === 'function') initFAQ();
+            }, 300);
             
             // Siempre inicializar popups y prueba social (verifican internamente si es home)
             setTimeout(() => {
@@ -894,6 +898,153 @@ class SPANavigator {
             ${this.getSliderSection('Certificaciones Internacionales', 'certificaciones internacionales con reconocimiento global', 'certifications', this.getCertificationsForSlider())}
             
             ${this.getSliderSection('Más Queridos', 'cursos prácticos y accesibles que transforman habilidades en negocios rentables', 'masqueridos', this.getMasQueridosForSlider())}
+            
+            <!-- FAQ Section -->
+            <section class="faq-section" style="padding: 80px 0; background: var(--color-bg-secondary);">
+                <div class="container">
+                    <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+                        <h2 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 16px; color: var(--color-text);">❓ Preguntas Frecuentes</h2>
+                        <p style="font-size: 1.2rem; color: var(--color-text-secondary); max-width: 700px; margin: 0 auto;">Resolvemos tus dudas más comunes sobre nuestros programas y formaciones</p>
+                    </div>
+                    
+                    <div class="faq-container" style="max-width: 900px; margin: 0 auto;">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Qué incluyen los programas?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Nuestros programas incluyen acceso completo a contenido especializado, metodologías probadas paso a paso, materiales descargables, acceso permanente de por vida y actualizaciones futuras sin costo adicional. Cada programa está diseñado para que puedas aplicar lo aprendido desde el primer día y generar ingresos reales.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Puedo acceder desde cualquier dispositivo?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Sí, todos nuestros programas son 100% accesibles desde cualquier dispositivo: ordenador, tablet o móvil. El contenido está optimizado para que puedas aprender desde donde quieras y cuando quieras, adaptándose perfectamente a tu ritmo de vida y responsabilidades.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Necesito experiencia previa para empezar?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>No, nuestros programas están diseñados para todos los niveles. Comenzamos desde lo básico y avanzamos progresivamente, por lo que puedes empezar sin experiencia previa. La metodología es clara, práctica y orientada a resultados, permitiendo que cualquier persona pueda seguir el contenido y aplicar lo aprendido inmediatamente.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Cuánto tiempo tengo acceso al contenido?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>La mayoría de nuestros programas ofrecen acceso vitalicio. Una vez que te inscribes, tendrás acceso permanente al contenido y a todas las actualizaciones futuras sin costos adicionales. Puedes revisar el material las veces que necesites y avanzar a tu propio ritmo sin presión de tiempo.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Hay garantía de reembolso?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Sí, la mayoría de nuestros programas incluyen garantía de satisfacción. Si no estás conforme con el contenido durante los primeros días después de la compra, puedes solicitar el reembolso completo sin preguntas. Esta garantía demuestra nuestra confianza en la calidad de nuestras formaciones.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Quién es Universidad Online?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p><strong>Universidad.Online®</strong> es un ecosistema de educación online enfocado en cerrar la brecha digital, ofreciendo acceso continuo y flexible a programas y productos digitales desarrollados por expertos profesionales.</p>
+                                
+                                <p>Lo que hace especial a Universidad.Online® es que contamos con <strong>mentores profesionales</strong> que acompañan tu proceso de aprendizaje, <strong>comunidades activas</strong> donde puedes conectar con otros estudiantes y compartir experiencias, y un enfoque en <strong>aprendizaje práctico y acompañado</strong> que va más allá de simplemente consumir contenido.</p>
+                                
+                                <p><strong>Las sesiones en vivo se realizan en Telegram</strong>, donde puedes hacer preguntas directamente a los mentores y recibir feedback personalizado. Te recomendamos especialmente unirte a las comunidades para tener acompañamiento continuo durante todo tu proceso de aprendizaje.</p>
+                                
+                                <p>Puedes acceder a nuestras comunidades y sesiones en vivo a través de estos enlaces:</p>
+                                
+                                <ul style="margin-top: 16px; margin-bottom: 16px;">
+                                    <li style="margin-bottom: 12px;"><strong>Telegram (sesiones en vivo):</strong> <a href="https://go.hotmart.com/G103064932D?ap=ac0f" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=ac0f</a></li>
+                                    <li style="margin-bottom: 12px;"><strong>Comunidad en Skool:</strong> <a href="https://go.hotmart.com/G103064932D?ap=c765" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=c765</a></li>
+                                    <li style="margin-bottom: 12px;"><strong>Mentorías en vivo por Zoom:</strong> <a href="https://go.hotmart.com/G103064932D?ap=d836" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=d836</a></li>
+                                    <li style="margin-bottom: 12px;"><strong>Comunidad en WhatsApp:</strong> <a href="https://go.hotmart.com/G103064932D?ap=887f" target="_blank" rel="noopener noreferrer" style="color: var(--color-accent); text-decoration: underline;">https://go.hotmart.com/G103064932D?ap=887f</a></li>
+                                </ul>
+                                
+                                <p>Nuestros programas están certificados por el Centro de Educación y Liderazgo (CEL) y avalados por Florida Global University dentro de su Programa de Educación Continua, cumpliendo estándares internacionales de calidad educativa.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Cómo puedo contactar si tengo dudas?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Puedes contactarnos a través de nuestra <a href="#" data-page="contacto" style="color: var(--color-accent); text-decoration: underline; font-weight: 600;">página de Contacto</a> o unirte a nuestra comunidad de WhatsApp. También puedes acceder a las sesiones en vivo en Telegram donde los mentores responden preguntas directamente. Estamos disponibles para resolver todas tus dudas y ayudarte en tu proceso de aprendizaje.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Los programas están actualizados con las últimas tendencias?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Sí, nuestros programas se actualizan constantemente para incluir las últimas técnicas, herramientas y tendencias del mercado. Los estudiantes tienen acceso a todas las actualizaciones sin costo adicional, asegurando que siempre tengas acceso al conocimiento más actualizado y relevante para tu desarrollo profesional.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Puedo aplicar lo aprendido inmediatamente?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Absolutamente. Nuestros programas están diseñados con un enfoque práctico y aplicable desde el primer día. Cada lección incluye ejercicios, proyectos y casos reales que puedes implementar inmediatamente. La metodología está orientada a resultados, no solo a teoría, por lo que verás resultados tangibles desde las primeras semanas.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <span>¿Qué diferencia estos programas de otros en el mercado?</span>
+                                <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Lo que diferencia nuestros programas es la combinación de contenido práctico probado, acceso a mentores profesionales, comunidades activas de aprendizaje, certificaciones reconocidas internacionalmente, y un enfoque en resultados reales. No solo aprendes teoría, desarrollas habilidades aplicables que te permiten generar ingresos y transformar tu situación profesional desde el primer día.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         `;
     }
 
@@ -1025,13 +1176,16 @@ class SPANavigator {
                             <p>¿Tienes alguna pregunta? Estoy aquí para ayudarte</p>
                         </div>
 
-                        <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST">
-                            <input type="hidden" name="access_key" value="a28f9cf8-62ad-4a59-bfad-480c3553edd9">
-                            <input type="hidden" name="subject" value="KrisKNCreativeAgency - Formulario de Contacto">
+                        <form class="contact-form" id="contactForm" action="https://formsubmit.co/solucionesworld2016@gmail.com" method="POST" target="_blank">
+                            <input type="hidden" name="_subject" value="KrisKNCreativeAgency - Formulario de Contacto">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_next" value="">
+                            <input type="hidden" name="_autoresponse" value="Gracias por contactarnos. Hemos recibido tu mensaje y nos pondremos en contacto contigo pronto.">
                             
                             <div class="form-group">
                                 <label for="nombre">Nombre y Apellidos *</label>
-                                <input type="text" id="nombre" name="name" required>
+                                <input type="text" id="nombre" name="nombre" required>
                             </div>
 
                             <div class="form-group">
@@ -1046,7 +1200,7 @@ class SPANavigator {
 
                             <div class="form-group">
                                 <label for="mensaje">Mensaje para enviarnos la consulta *</label>
-                                <textarea id="mensaje" name="message" required></textarea>
+                                <textarea id="mensaje" name="mensaje" required></textarea>
                             </div>
 
                             <div class="form-submit">
@@ -1062,16 +1216,14 @@ class SPANavigator {
     initContactForm() {
         const form = document.getElementById('contactForm');
 
-        form?.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            
+        form?.addEventListener('submit', (e) => {
             // Validar que los campos requeridos estén llenos
             const nombre = form.querySelector('#nombre').value.trim();
             const email = form.querySelector('#email').value.trim();
             const mensaje = form.querySelector('#mensaje').value.trim();
             
             if (!nombre || !email || !mensaje) {
-                alert('Por favor, completa todos los campos requeridos.');
+                e.preventDefault();
                 return false;
             }
             
@@ -1084,39 +1236,13 @@ class SPANavigator {
             // Actualizar el campo de mensaje con el formato completo
             form.querySelector('#mensaje').value = mensajeCompleto;
             
-            // Deshabilitar el botón de envío
-            const submitButton = form.querySelector('button[type="submit"]');
-            const originalButtonText = submitButton.textContent;
-            submitButton.disabled = true;
-            submitButton.textContent = 'Enviando...';
+            // Envío silencioso - resetear formulario sin mostrar popup
+            setTimeout(() => {
+                form.reset();
+            }, 100);
             
-            try {
-                // Crear FormData con todos los campos
-                const formData = new FormData(form);
-                
-                // Enviar a Web3Forms
-                const response = await fetch('https://api.web3forms.com/submit', {
-                    method: 'POST',
-                    body: formData
-                });
-                
-                const result = await response.json();
-                
-                if (result.success) {
-                    // Mostrar mensaje de éxito
-                    alert('¡Mensaje enviado correctamente! Te responderemos pronto.');
-                    form.reset();
-                } else {
-                    throw new Error(result.message || 'Error al enviar el mensaje');
-                }
-            } catch (error) {
-                console.error('Error:', error);
-                alert('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.');
-            } finally {
-                // Restaurar el botón
-                submitButton.disabled = false;
-                submitButton.textContent = originalButtonText;
-            }
+            // Permitir que el formulario se envíe normalmente a FormSubmit
+            return true;
         });
     }
 
